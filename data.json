@@ -1,0 +1,108 @@
+{
+  "news": [
+    {
+      "date": "Feb 2026",
+      "text": "Cleared the Research Proficiency Exam and advanced to candidacy."
+    },
+    {
+      "date": "Aug 2025",
+      "text": "Completed Internship at Apple Inc, Cupertino, California."
+    },
+    {
+      "date": "May 2025",
+      "text": "Attended in person workshop on Powder Platform at University of Utah."
+    },
+    {
+      "date": "Aug 2023",
+      "text": "Started Ph.D at Stony Brook University, New York."
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "On the Performance and Consistency Trade-off of the eSIM M2M Remote Provisioning Protocol",
+      "authors": "Mitziu Echeverria, Aliakbar Sadeghi, <strong>G M Tasnim Alam</strong>, Omar Chowdhury",
+      "venue": "WiSec 2025: 18th ACM Conference on Security and Privacy in Wireless and Mobile Networks, Pages 40–52",
+      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3734477.3734712",
+      "doi": "https://doi.org/10.1145/3734477.3734712",
+      "bibtex": "@inproceedings{echeverria2025esim,\n  title     = {On the Performance and Consistency Trade-off of the eSIM M2M Remote Provisioning Protocol},\n  author    = {Echeverria, Mitziu and Sadeghi, Aliakbar and Alam, G M Tasnim and Chowdhury, Omar},\n  booktitle = {Proceedings of the 18th ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec '25)},\n  pages     = {40--52},\n  year      = {2025},\n  publisher = {ACM},\n  doi       = {10.1145/3734477.3734712}\n}"
+    }
+  ],
+
+  "projects": [
+    {
+      "icon": "📡",
+      "title": "5G Core Testing",
+      "description": "Testing Opensource 5G Core Network",
+      "tags": ["Python", "C/C++"],
+      "github": "https://github.com/shovon0203/per_encoder_asn1"
+    }
+  ],
+
+  "cves": [
+    {
+      "id": "CVE-2026-30080",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30080",
+      "description": "Integrity violation in OpenAirInterface v2.2.0",
+      "severity": "-",
+      "affected": "OpenAirInterface v2.2.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-30075",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30075",
+      "description": "Buffer Overflow vulnerability in processing UplinkNASTransport containing Authentication Response containing a NAS PDU with oversize response.",
+      "severity": "-",
+      "affected": "OpenAirInterface v2.2.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-30079",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30079",
+      "description": "Incorrect State change in OpenAirInterface cause authentication bypass.",
+      "severity": "-",
+      "affected": "OpenAirInterface v2.2.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-30077",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30077",
+      "description": "Decoding failure causes OpenAirInterface AMF to crash.",
+      "severity": "High",
+      "affected": "OpenAirInterface v2.2.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-30078",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30078",
+      "description": "Invalid NGAP message type crashes the AMF.",
+      "severity": "High",
+      "affected": "OpenAirInterface v2.2.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-5360",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-5360",
+      "description": "Type Confusion vulnerability APER encoding and decoding.",
+      "severity": "medium",
+      "affected": "free5GC v4.2.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-4531",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-4531",
+      "description": "Out of order NGAP messages sequences crashes AMF.",
+      "severity": "medium",
+      "affected": "free5GC v4.1.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-5661",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-5661",
+      "description": "NGAP Protocol Vulnerability by exploiting NGSetupRequest criticality value to desynchronize the client state.",
+      "severity": "medium",
+      "affected": "free5GC v4.2.0",
+      "year": "2026"
+    }
+  ]
+}
