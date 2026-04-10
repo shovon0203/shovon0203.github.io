@@ -44,7 +44,7 @@
       "id": "CVE-2026-30080",
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30080",
       "description": "Integrity violation in OpenAirInterface v2.2.0",
-      "severity": "-",
+      "severity": "High",
       "affected": "OpenAirInterface v2.2.0",
       "year": "2026"
     },
@@ -52,7 +52,7 @@
       "id": "CVE-2026-30075",
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30075",
       "description": "Buffer Overflow vulnerability in processing UplinkNASTransport containing Authentication Response containing a NAS PDU with oversize response.",
-      "severity": "-",
+      "severity": "High",
       "affected": "OpenAirInterface v2.2.0",
       "year": "2026"
     },
@@ -60,7 +60,7 @@
       "id": "CVE-2026-30079",
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30079",
       "description": "Incorrect State change in OpenAirInterface cause authentication bypass.",
-      "severity": "-",
+      "severity": "Critical",
       "affected": "OpenAirInterface v2.2.0",
       "year": "2026"
     },

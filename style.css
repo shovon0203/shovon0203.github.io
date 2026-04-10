@@ -634,6 +634,11 @@ details[open] > .cve-year-header::before {
   cursor: pointer;
   padding: 4px;
   z-index: 110;
+  -webkit-appearance: none;
+  appearance: none;
+  font-size: 0;
+  color: transparent;
+  outline: none;
 }
 
 .nav-toggle span {
