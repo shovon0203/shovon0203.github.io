@@ -13,229 +13,345 @@
 </head>
 <body>
 
-  <!-- Navigation -->
+  <!-- Top Navigation -->
   <nav class="nav">
     <div class="nav-inner">
-      <a href="#" class="logo">T. A.</a>
+      <a href="#about" class="logo">Tasnim Alam</a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#news">News</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#cves">CVEs</a></li>
-        <li><a href="#resume">Resume</a></li>
+        <li><a href="Tasnim_Alam_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero + About -->
-  <section id="about" class="hero">
-    <div class="container">
-      <div class="hero-about-layout">
-        <div class="about-photo">
-          <img src="photo.jpeg" alt="Photo of Tasnim Alam" />
+  <div class="page-layout">
+
+    <!-- Left Sidebar: photo + identity + social links -->
+    <aside class="sidebar sidebar-left">
+      <div class="sidebar-body">
+        <div class="sidebar-profile">
+          <img src="photo.jpeg" alt="Photo of Tasnim Alam" class="sidebar-photo" />
+          <h1 class="sidebar-name">Tasnim Alam</h1>
+          <p class="sidebar-title">3rd Year Ph.D. Candidate</p>
+          <p class="sidebar-field">5G Network &amp; Protocol Security</p>
+          <p class="sidebar-university">Stony Brook University</p>
         </div>
-        <div class="hero-about-content">
-          <p class="hero-greeting">Hi, I'm</p>
-          <h1 class="hero-name">Tasnim Alam</h1>
-          <p class="hero-tagline">3rd Year Ph.D. Candidate · 5G Network &amp; Protocol Security</p>
-          <p class="hero-university">State University of New York at Stony Brook</p>
-          <p class="hero-description">
-            I'm a 3rd year Ph.D. candidate researching 5G network and protocol security. 
-            My work focuses on identifying and analyzing vulnerabilities in 5G protocol 
+
+        <hr class="sidebar-divider" />
+
+        <div class="sidebar-social">
+          <a href="mailto:shovon54@gmail.com" title="Email" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span>Email</span>
+          </a>
+          <a href="https://github.com/shovon0203" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://scholar.google.com/citations?user=K8PvW8oAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            <span>Google Scholar</span>
+          </a>
+          <a href="https://www.linkedin.com/in/tasnim-alam-1264a7286/" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content (center) -->
+    <main class="main-content">
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="content-inner">
+          <h2 class="section-title">About</h2>
+          <p class="about-bio">
+            I'm a 3rd year Ph.D. candidate researching 5G network and protocol security.
+            My work focuses on identifying and analyzing vulnerabilities in 5G protocol
             implementations, with an emphasis on vulnerability detection and responsible disclosure.
           </p>
-          <p class="hero-description">
-            I have discovered and responsibly disclosed multiple CVEs in widely deployed 
-            5G core implementations, with research papers currently under submission. 
-            Beyond academia, I bring industry experience from <strong>Apple</strong> and 
-            <strong>Agoda</strong>, where I worked on large-scale software engineering 
-            and security challenges. I'm driven by a commitment to bridging security 
-            research and real-world engineering to make networked systems more secure.
+          <p class="about-bio">
+            I have discovered and responsibly disclosed numerous CVEs in widely deployed
+            5G core implementations &mdash; including a critical authentication bypass &mdash;
+            with research papers currently under submission. Beyond academia, I bring
+            industry experience from <strong>Apple</strong> and <strong>Agoda</strong>,
+            where I worked on large-scale software engineering and security challenges.
+            I'm driven by a commitment to bridging security research and real-world
+            engineering to make networked systems more secure.
           </p>
           <p class="about-interests">
-            <strong>Research Interests:</strong> 5G Security, Network Protocol Analysis, 
+            <strong>Research Interests:</strong> 5G Security, Network Protocol Analysis,
             Vulnerability Detection, Fuzzing, Software Engineering
           </p>
-          <div class="hero-cta">
-            <a href="#publications" class="btn btn-primary">Publications</a>
-            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+
+          <div class="about-highlights" id="about-highlights"></div>
+        </div>
+      </section>
+
+      <!-- Publications -->
+      <section id="publications" class="section section-alt">
+        <div class="content-inner">
+          <h2 class="section-title">Research Publications</h2>
+          <ol class="publication-list" id="publication-list"></ol>
+        </div>
+      </section>
+
+      <!-- Ongoing Projects -->
+      <section id="projects" class="section">
+        <div class="content-inner">
+          <h2 class="section-title">Ongoing Projects</h2>
+          <div class="projects-grid" id="projects-grid"></div>
+        </div>
+      </section>
+
+      <!-- CVEs -->
+      <section id="cves" class="section section-alt">
+        <div class="content-inner">
+          <h2 class="section-title">CVEs &amp; Disclosures</h2>
+          <div class="cve-stats" id="cve-stats"></div>
+          <div class="cve-list" id="cve-list"></div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="content-inner">
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="contact-text">
+            I'm always open to research collaborations, responsible disclosure coordination,
+            and interesting conversations.<br />Feel free to reach out!
+          </p>
+          <div class="contact-links">
+            <a href="mailto:shovon54@gmail.com" class="btn btn-primary">Email Me</a>
+            <a href="https://github.com/shovon0203" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=K8PvW8oAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Google Scholar</a>
+            <a href="https://www.linkedin.com/in/tasnim-alam-1264a7286/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">LinkedIn</a>
           </div>
         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="content-inner">
+          <p>&copy; 2026 Tasnim Alam. Built with ☕ and curiosity.</p>
+        </div>
+      </footer>
+
+    </main>
+
+    <!-- Right Sidebar: News -->
+    <aside class="sidebar sidebar-right">
+      <div class="sidebar-body">
+        <h3 class="sidebar-heading">News</h3>
+        <ul class="news-list" id="news-list"></ul>
       </div>
-    </div>
-  </section>
+    </aside>
 
-  <!-- News -->
-  <section id="news" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">News</h2>
-      <ul class="news-list" id="news-list"></ul>
-    </div>
-  </section>
-
-  <!-- Publications -->
-  <section id="publications" class="section">
-    <div class="container">
-      <h2 class="section-title">Research Publications</h2>
-      <ol class="publication-list" id="publication-list"></ol>
-    </div>
-  </section>
-
-  <!-- Ongoing Projects -->
-  <section id="projects" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Ongoing Projects</h2>
-      <div class="projects-grid" id="projects-grid"></div>
-    </div>
-  </section>
-
-  <!-- CVEs -->
-  <section id="cves" class="section">
-    <div class="container">
-      <h2 class="section-title">CVEs &amp; Disclosures</h2>
-      <div class="cve-list" id="cve-list"></div>
-    </div>
-  </section>
-
-  <!-- Resume -->
-  <section id="resume" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Resume</h2>
-      <p class="resume-text">Download my latest resume for a full overview of my education, experience, and skills.</p>
-      <a href="Tasnim_resume_26.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary resume-btn">
-        <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        Download Resume (PDF)
-      </a>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Get in Touch</h2>
-      <p class="contact-text">
-        I'm always open to research collaborations, responsible disclosure coordination, 
-        and interesting conversations.<br />Feel free to reach out!
-      </p>
-      <div class="contact-links">
-        <a href="mailto:shovon54@gmail.com" class="btn btn-primary">Email Me</a>
-        <a href="https://github.com/shovon0203" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
-        <a href="https://scholar.google.com/citations?user=K8PvW8oAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Google Scholar</a>
-        <a href="https://www.linkedin.com/in/tasnim-alam-1264a7286/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">LinkedIn</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2026 Tasnim Alam. Built with ☕ and curiosity.</p>
-    </div>
-  </footer>
+  </div>
 
   <script>
-  fetch('data.json').then(r => r.json()).then(data => {
+  fetch('data.json')
+    .then(r => {
+      if (!r.ok) throw new Error('Failed to load data.json: ' + r.status);
+      return r.json();
+    })
+    .then(data => {
 
-    // --- News ---
-    const newsList = document.getElementById('news-list');
-    data.news.forEach(item => {
-      const li = document.createElement('li');
-      li.innerHTML = `<span class="news-date">${item.date}</span><span class="news-text">${item.text}</span>`;
-      newsList.appendChild(li);
-    });
-
-    // --- Publications ---
-    const pubList = document.getElementById('publication-list');
-    data.publications.forEach(pub => {
-      const li = document.createElement('li');
-      li.className = 'pub-item';
-      let links = '';
-      if (pub.pdf) links += `<a href="${pub.pdf}" target="_blank" rel="noopener noreferrer">PDF</a>`;
-      if (pub.doi) links += `<a href="${pub.doi}" target="_blank" rel="noopener noreferrer">DOI</a>`;
-      if (pub.slides) links += `<a href="${pub.slides}" target="_blank" rel="noopener noreferrer">Slides</a>`;
-      if (pub.code) links += `<a href="${pub.code}" target="_blank" rel="noopener noreferrer">Code</a>`;
-      if (pub.bibtex) links += `<button class="bibtex-toggle" onclick="this.parentElement.nextElementSibling.classList.toggle('show')">BibTeX</button>`;
-      let bibtexBlock = pub.bibtex ? `<pre class="bibtex-block"><code>${pub.bibtex}</code></pre>` : '';
-      li.innerHTML = `
-        <p class="pub-title">${pub.title}</p>
-        <p class="pub-authors">${pub.authors}</p>
-        <p class="pub-venue">${pub.venue}</p>
-        <div class="pub-links">${links}</div>
-        ${bibtexBlock}`;
-      pubList.appendChild(li);
-    });
-
-    // --- Projects ---
-    const projGrid = document.getElementById('projects-grid');
-    data.projects.forEach(proj => {
-      const card = document.createElement('div');
-      card.className = 'project-card';
-      let tags = proj.tags.map(t => `<span>${t}</span>`).join('');
-      let links = '';
-      if (proj.github) links += `<a href="${proj.github}" target="_blank" rel="noopener noreferrer">GitHub →</a>`;
-      if (proj.paper) links += `<a href="${proj.paper}" target="_blank" rel="noopener noreferrer">Paper →</a>`;
-      if (proj.demo) links += `<a href="${proj.demo}" target="_blank" rel="noopener noreferrer">Demo →</a>`;
-      card.innerHTML = `
-        <div class="project-icon">${proj.icon}</div>
-        <h3>${proj.title}</h3>
-        <p>${proj.description}</p>
-        <div class="project-tags">${tags}</div>
-        <div class="project-links">${links}</div>`;
-      projGrid.appendChild(card);
-    });
-
-    // --- CVEs (grouped by year, collapsible) ---
-    const cveList = document.getElementById('cve-list');
-    const grouped = {};
-    data.cves.forEach(cve => {
-      if (!grouped[cve.year]) grouped[cve.year] = [];
-      grouped[cve.year].push(cve);
-    });
-    const years = Object.keys(grouped).sort((a, b) => b - a);
-    years.forEach((year, idx) => {
-      const section = document.createElement('details');
-      section.className = 'cve-year-group';
-      if (idx === 0) section.open = true;
-      const summary = document.createElement('summary');
-      summary.className = 'cve-year-header';
-      summary.innerHTML = `${year} <span class="cve-year-count">${grouped[year].length} CVE${grouped[year].length > 1 ? 's' : ''}</span>`;
-      section.appendChild(summary);
-      grouped[year].forEach(cve => {
-        const div = document.createElement('div');
-        div.className = 'cve-item';
-        div.innerHTML = `
-          <a href="${cve.nist}" target="_blank" rel="noopener noreferrer" class="cve-id">${cve.id}</a>
-          <div class="cve-details">
-            <p class="cve-desc">${cve.description}</p>
-            <p class="cve-meta">Severity: <span class="cve-severity ${cve.severity.toLowerCase()}">${cve.severity.charAt(0).toUpperCase() + cve.severity.slice(1)}</span> · Affected: ${cve.affected}</p>
+      // --- About highlights ---
+      const aboutHighlights = document.getElementById('about-highlights');
+      if (aboutHighlights) {
+        const totalCves = (data.cves || []).length;
+        const totalPubs = (data.publications || []).length;
+        const severityRank = { critical: 4, high: 3, medium: 2, low: 1 };
+        let top = { rank: 0, severity: '—', score: null };
+        (data.cves || []).forEach(cve => {
+          const rank = severityRank[(cve.severity || '').toLowerCase()] || 0;
+          const score = typeof cve.score === 'number' ? cve.score : -1;
+          const currentTopScore = typeof top.score === 'number' ? top.score : -1;
+          if (rank > top.rank || (rank === top.rank && score > currentTopScore)) {
+            top = {
+              rank,
+              severity: cve.severity.charAt(0).toUpperCase() + cve.severity.slice(1).toLowerCase(),
+              score: typeof cve.score === 'number' ? cve.score : null
+            };
+          }
+        });
+        const topClass = top.severity.toLowerCase();
+        const topScoreHtml = top.score !== null
+          ? `<span class="highlight-score">${top.score}</span>`
+          : '';
+        aboutHighlights.innerHTML = `
+          <div class="highlight-card">
+            <span class="highlight-value">${totalCves}</span>
+            <span class="highlight-label">CVEs Disclosed</span>
+          </div>
+          <div class="highlight-card highlight-${topClass}">
+            <span class="highlight-value">${top.severity}${topScoreHtml}</span>
+            <span class="highlight-label">Highest Severity</span>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-value">${totalPubs}</span>
+            <span class="highlight-label">Publication${totalPubs === 1 ? '' : 's'}</span>
           </div>`;
-        section.appendChild(div);
-      });
-      cveList.appendChild(section);
-    });
+      }
 
-  });
+      // --- News ---
+      const newsList = document.getElementById('news-list');
+      if (newsList && data.news) {
+        data.news.forEach(item => {
+          const li = document.createElement('li');
+          li.innerHTML = `<span class="news-date">${item.date}</span><span class="news-text">${item.text}</span>`;
+          newsList.appendChild(li);
+        });
+      }
+
+      // --- Publications ---
+      const pubList = document.getElementById('publication-list');
+      if (pubList && data.publications) {
+        data.publications.forEach(pub => {
+          const li = document.createElement('li');
+          li.className = 'pub-item';
+          let links = '';
+          if (pub.pdf) links += `<a href="${pub.pdf}" target="_blank" rel="noopener noreferrer">PDF</a>`;
+          if (pub.doi) links += `<a href="${pub.doi}" target="_blank" rel="noopener noreferrer">DOI</a>`;
+          if (pub.slides) links += `<a href="${pub.slides}" target="_blank" rel="noopener noreferrer">Slides</a>`;
+          if (pub.code) links += `<a href="${pub.code}" target="_blank" rel="noopener noreferrer">Code</a>`;
+          if (pub.bibtex) links += `<button class="bibtex-toggle" onclick="this.parentElement.nextElementSibling.classList.toggle('show')">BibTeX</button>`;
+          let bibtexBlock = pub.bibtex ? `<pre class="bibtex-block"><code>${pub.bibtex}</code></pre>` : '';
+          li.innerHTML = `
+            <p class="pub-title">${pub.title}</p>
+            <p class="pub-authors">${pub.authors}</p>
+            <p class="pub-venue">${pub.venue}</p>
+            <div class="pub-links">${links}</div>
+            ${bibtexBlock}`;
+          pubList.appendChild(li);
+        });
+      }
+
+      // --- Projects ---
+      const projGrid = document.getElementById('projects-grid');
+      if (projGrid && data.projects) {
+        data.projects.forEach(proj => {
+          const card = document.createElement('div');
+          card.className = 'project-card';
+          let tags = (proj.tags || []).map(t => `<span>${t}</span>`).join('');
+          let links = '';
+          if (proj.github) links += `<a href="${proj.github}" target="_blank" rel="noopener noreferrer">GitHub →</a>`;
+          if (proj.paper) links += `<a href="${proj.paper}" target="_blank" rel="noopener noreferrer">Paper →</a>`;
+          if (proj.demo) links += `<a href="${proj.demo}" target="_blank" rel="noopener noreferrer">Demo →</a>`;
+          card.innerHTML = `
+            <div class="project-icon">${proj.icon || ''}</div>
+            <h3>${proj.title}</h3>
+            <p>${proj.description}</p>
+            <div class="project-tags">${tags}</div>
+            <div class="project-links">${links}</div>`;
+          projGrid.appendChild(card);
+        });
+      }
+
+      // --- CVEs ---
+      const cveStats = document.getElementById('cve-stats');
+      const cveList = document.getElementById('cve-list');
+      if (data.cves) {
+        // Compute summary counts
+        const counts = { total: data.cves.length, critical: 0, high: 0, medium: 0, low: 0 };
+        data.cves.forEach(cve => {
+          const sev = (cve.severity || '').toLowerCase();
+          if (counts[sev] !== undefined) counts[sev]++;
+        });
+
+        // Render summary cards
+        if (cveStats) {
+          cveStats.innerHTML = `
+            <div class="stat-card stat-total">
+              <span class="stat-number">${counts.total}</span>
+              <span class="stat-label">Total CVEs</span>
+            </div>
+            <div class="stat-card stat-critical">
+              <span class="stat-number">${counts.critical}</span>
+              <span class="stat-label">Critical</span>
+            </div>
+            <div class="stat-card stat-high">
+              <span class="stat-number">${counts.high}</span>
+              <span class="stat-label">High</span>
+            </div>
+            <div class="stat-card stat-medium">
+              <span class="stat-number">${counts.medium}</span>
+              <span class="stat-label">Medium</span>
+            </div>`;
+        }
+
+        // Render CVE list (grouped by year, collapsible)
+        if (cveList) {
+          const grouped = {};
+          data.cves.forEach(cve => {
+            if (!grouped[cve.year]) grouped[cve.year] = [];
+            grouped[cve.year].push(cve);
+          });
+          const years = Object.keys(grouped).sort((a, b) => b - a);
+          years.forEach((year, idx) => {
+            const section = document.createElement('details');
+            section.className = 'cve-year-group';
+            if (idx === 0) section.open = true;
+            const summary = document.createElement('summary');
+            summary.className = 'cve-year-header';
+            summary.innerHTML = `${year} <span class="cve-year-count">${grouped[year].length} CVE${grouped[year].length > 1 ? 's' : ''}</span>`;
+            section.appendChild(summary);
+            grouped[year].forEach(cve => {
+              const sev = (cve.severity || '').toLowerCase();
+              const sevLabel = cve.severity ? cve.severity.charAt(0).toUpperCase() + cve.severity.slice(1).toLowerCase() : '';
+              const scoreHtml = (cve.score !== undefined && cve.score !== null)
+                ? `<span class="cve-score cve-score-${sev}">CVSS ${cve.score}</span>`
+                : '';
+              const div = document.createElement('div');
+              div.className = 'cve-item';
+              div.innerHTML = `
+                <a href="${cve.nist}" target="_blank" rel="noopener noreferrer" class="cve-id">${cve.id}</a>
+                <div class="cve-details">
+                  <p class="cve-desc">${cve.description}</p>
+                  <p class="cve-meta">
+                    <span class="cve-severity ${sev}">${sevLabel}</span>
+                    ${scoreHtml}
+                    <span class="cve-affected">Affected: ${cve.affected}</span>
+                  </p>
+                </div>`;
+              section.appendChild(div);
+            });
+            cveList.appendChild(section);
+          });
+        }
+      }
+    })
+    .catch(err => {
+      console.error('Error loading data:', err);
+    });
   </script>
   <script>
     const navToggle = document.querySelector('.nav-toggle');
     const navLinks = document.querySelector('.nav-links');
-    navToggle.addEventListener('click', () => {
-      const open = navLinks.classList.toggle('open');
-      navToggle.classList.toggle('open', open);
-      navToggle.setAttribute('aria-expanded', open);
-    });
-    navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navLinks.classList.remove('open');
-        navToggle.classList.remove('open');
-        navToggle.setAttribute('aria-expanded', 'false');
+    if (navToggle && navLinks) {
+      navToggle.addEventListener('click', () => {
+        const open = navLinks.classList.toggle('open');
+        navToggle.classList.toggle('open', open);
+        navToggle.setAttribute('aria-expanded', open);
       });
-    });
+      navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('open');
+          navToggle.classList.remove('open');
+          navToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
   </script>
 
 </body>

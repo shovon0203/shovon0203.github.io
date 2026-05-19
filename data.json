@@ -45,6 +45,7 @@
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30080",
       "description": "Integrity violation in OpenAirInterface v2.2.0",
       "severity": "High",
+      "score": 7.5,
       "affected": "OpenAirInterface v2.2.0",
       "year": "2026"
     },
@@ -53,6 +54,7 @@
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30075",
       "description": "Buffer Overflow vulnerability in processing UplinkNASTransport containing Authentication Response containing a NAS PDU with oversize response.",
       "severity": "High",
+      "score": 7.5,
       "affected": "OpenAirInterface v2.2.0",
       "year": "2026"
     },
@@ -61,6 +63,7 @@
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30079",
       "description": "Incorrect State change in OpenAirInterface cause authentication bypass.",
       "severity": "Critical",
+      "score": 9.8,
       "affected": "OpenAirInterface v2.2.0",
       "year": "2026"
     },
@@ -69,6 +72,7 @@
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30077",
       "description": "Decoding failure causes OpenAirInterface AMF to crash.",
       "severity": "High",
+      "score": 7.5,
       "affected": "OpenAirInterface v2.2.0",
       "year": "2026"
     },
@@ -77,6 +81,7 @@
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-30078",
       "description": "Invalid NGAP message type crashes the AMF.",
       "severity": "High",
+      "score": 7.5,
       "affected": "OpenAirInterface v2.2.0",
       "year": "2026"
     },
@@ -84,7 +89,8 @@
       "id": "CVE-2026-5360",
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-5360",
       "description": "Type Confusion vulnerability APER encoding and decoding.",
-      "severity": "medium",
+      "severity": "Medium",
+      "score": 5.4,
       "affected": "free5GC v4.2.0",
       "year": "2026"
     },
@@ -92,7 +98,8 @@
       "id": "CVE-2026-4531",
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-4531",
       "description": "Out of order NGAP messages sequences crashes AMF.",
-      "severity": "medium",
+      "severity": "Medium",
+      "score": 5.4,
       "affected": "free5GC v4.1.0",
       "year": "2026"
     },
@@ -100,8 +107,63 @@
       "id": "CVE-2026-5661",
       "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-5661",
       "description": "NGAP Protocol Vulnerability by exploiting NGSetupRequest criticality value to desynchronize the client state.",
-      "severity": "medium",
+      "severity": "Medium",
+      "score": 5.4,
       "affected": "free5GC v4.2.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-8349",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-8349",
+      "description": "Malformed LocationReport NGAP message causes AMF to crash.",
+      "severity": "Medium",
+      "score": 4.3,
+      "affected": "SD-Core v2.1.1",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-8779",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-8779",
+      "description": "Malformed NGSetupRequest NGAP message causes AMF to crash.",
+      "severity": "Medium",
+      "score": 4.3,
+      "affected": "SD-Core v2.1.1",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-8780",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-8780",
+      "description": "AMF crashes if a NGAP message contains non printable string in information element in a NGSetupRequest.",
+      "severity": "Medium",
+      "score": 4.3,
+      "affected": "SD-Core v2.1.1",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-8781",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-8781",
+      "description": "Malformed RANConfiguration message causes AMF to crash.",
+      "severity": "Medium",
+      "score": 4.3,
+      "affected": "SD-Core v2.1.1",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-8782",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-8782",
+      "description": "Malformed LocationReportFailureIndication message causes AMF to crash.",
+      "severity": "Medium",
+      "score": 4.3,
+      "affected": "SD-Core v2.1.1",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-8783",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-8783",
+      "description": "Malformed UERadioCapabilityCheckResponse message causes AMF to crash.",
+      "severity": "Medium",
+      "score": 4.3,
+      "affected": "SD-Core v2.1.1",
       "year": "2026"
     }
   ]
