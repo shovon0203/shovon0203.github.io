@@ -201,6 +201,24 @@
       "score": 6.3,
       "affected": "SD-Core v2.1.1",
       "year": "2026"
+    },
+    {
+      "id": "CVE-2026-14624",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-14624",
+      "description": "Invalid PDUSessionResourceModifyIndication NGAP message crashes AMF.",
+      "severity": "Medium",
+      "score": 4.3,
+      "affected": "SD-Core v2.1.1",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-14623",
+      "nist": "https://nvd.nist.gov/vuln/detail/CVE-2026-14623",
+      "description": "Malformed RRCInactiveTransitionReport causes AMF to crash.",
+      "severity": "Medium",
+      "score": 4.3,
+      "affected": "SD-Core v2.1.1",
+      "year": "2026"
     }
   ]
 }
