@@ -223,6 +223,60 @@
       "score": 4.3,
       "affected": "SD-Core v2.1.1",
       "year": "2026"
+    },
+    {
+      "id": "CVE-2026-82547",
+      "nist": "https://nvd.nist.gov/vuln/detail/cve-2026-82547",
+      "description": "Improper Authentication.",
+      "severity": "Medium",
+      "score": 6.4,
+      "affected": "Magma v1.9.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-82548",
+      "nist": "https://nvd.nist.gov/vuln/detail/cve-2026-82548",
+      "description": "Private information disclosure.",
+      "severity": "Medium",
+      "score": 5.5,
+      "affected": "Magma v1.9.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-82549",
+      "nist": "https://nvd.nist.gov/vuln/detail/cve-2026-82549",
+      "description": "Missing integrity check.",
+      "severity": "High",
+      "score": 8.3,
+      "affected": "Magma v1.9.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-82550",
+      "nist": "https://nvd.nist.gov/vuln/detail/cve-2026-82550",
+      "description": "Improper input validation.",
+      "severity": "Medium",
+      "score": 5.3,
+      "affected": "Magma v1.9.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-82551",
+      "nist": "https://nvd.nist.gov/vuln/detail/cve-2026-82551",
+      "description": "Improper state transition.",
+      "severity": "Medium",
+      "score": 5.5,
+      "affected": "Magma v1.9.0",
+      "year": "2026"
+    },
+    {
+      "id": "CVE-2026-82552",
+      "nist": "https://nvd.nist.gov/vuln/detail/cve-2026-82552",
+      "description": "Denial of Service.",
+      "severity": "Medium",
+      "score": 4.3,
+      "affected": "Magma v1.9.0",
+      "year": "2026"
     }
   ]
 }
