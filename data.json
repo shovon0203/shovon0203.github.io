@@ -1,6 +1,10 @@
 {
   "news": [
     {
+      "date": "August 2026",
+      "text": "Attended USENIX Security at Baltimore, Maryland (Travel grant awarded)."
+    },
+    {
       "date": "June 2026",
       "text": "Volunteered Applied Cryptography and Network Security (ACNS) 2026 Conference at Stony Brook, New York."
     },
